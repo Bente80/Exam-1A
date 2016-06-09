@@ -1,0 +1,48 @@
+     Java                   JS
+*compile languarge       scripting languarge
+*strongly typed          loosly typed
+*class baseret           prototype baseret (i steddet for at lave en ny klasse, laver vi i js et objekt,
+                                            og vil vi have flere kloner vi dette, så det fungere som udgangspunkt
+                                            for de andre)
+                                            ex.
+                                            function Person(name, model, make){
+                                            this.name = name;
+                                            this.model = model;
+                                            this.make = make;
+                                            }
+
+Java
+* Java er kompileret sprog
+* Java er et objekt orienteret programmerings sprog
+* Java skaber applikationer, der kører i en virtuel maskine eller browser.
+* Java bliver lavet om til bitekode når det kompileres.
+* Fejl bliver opdaget ved compiletime.
+- MERE code completion og dermed hjælp.
+- HURTIGERE fordi koden er kompileret til bitecode.
+- Her får man comlile time erroes (dvs. læselige fejlbeskeder)
+- Strengt skrevet
+    - Man kan IKKE skrive: String = int
+* Når du opretter et nyt objekt:
+       Person p = ny person ( )
+
+Javascript
+* JS er et scripted sprog
+* JS er en Object oriented scripting sprog, som fortolker lige det du skriver (bliver fortolket ikke kompileret).
+* JS kode køres kun i browseren.
+* JS kode sker der ikke noget med, det er bare ren tekst(bliver ikke kompileret).
+* Fejl bliver først opdaget ved runtime.
+- Løst skrevet
+- mere fleksibel
+- ingen typer , vi kan altid skrive a = b
+- Man kan mixe typer som int / String
+- Vi har IKKE comlile time erroes (dvs. læselige fejlbeskeder)
+- Kræv dygtige programmører!!!
+- Det er muligt at blokere en server, hvis en udregning f.eks. tager lang tid (fibonachi nummer), dette sker ved at
+  laver en funktion, hvor den er nødt til at tænke over dette.
+* Når du opretter et nyt objekt
+    Var a = { f.name : " Kurt " } eller
+    var b = ny person ( ) // hvis man har en person prototype
+
+
+
+link: http://www.seguetech.com/blog/2013/02/15/java-vs-javascript
